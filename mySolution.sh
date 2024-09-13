@@ -7,4 +7,4 @@ rm -rf maliciousFiles/
 touch secretDir/.secret
 chmod 600 secretDir/.secret
 chmod +x generateSecret.sh
-./generateSecret.sh 
+./generateSecret.sh
