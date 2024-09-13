@@ -8,4 +8,3 @@ touch secretDir/.secret
 chmod 600 secretDir/.secret
 chmod +x generateSecret.sh
 ./generateSecret.sh 
-
