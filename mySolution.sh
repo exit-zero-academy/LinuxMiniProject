@@ -6,6 +6,7 @@ wget https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/linux_project/se
 # Extract the contents of the compressed file
 tar -xvf secretGenerator.tar.gz
 
+
 # Navigate to the src directory
 cd src
 
