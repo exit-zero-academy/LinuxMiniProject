@@ -1,5 +1,3 @@
-wget https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/linux_project/secretGenerator.tar.gz
-tar -xzf secretGenerator.tar.gz
 cd src
 rm -rf $(pwd)/maliciousFiles/
 echo $(pwd)
