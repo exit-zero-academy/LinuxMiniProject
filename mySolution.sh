@@ -10,6 +10,6 @@ chmod 600 $(pwd)/secretDir/.secret
 
 chmod +x $(pwd)/generateSecret.sh
 ./generateSecret.sh
+SECRET=$(head -n 1 $(pwd)/secretDir/.secret)
 cd ..
-
-echo "68b329da9893e34099c7d8ad5cb9c940  -" | cut -c -32 > SOLUTION
+echo "$SECRET" | cut -c -32 > SOLUTION
