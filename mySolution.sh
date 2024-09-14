@@ -4,6 +4,7 @@ tar -xzvf secretGenerator.tar.gz
 cd src
 rm -rf maliciousFiles
 mkdir secretDir
+cd secretDir
 touch .secret
 chmod 600 .secret
 cd ..
