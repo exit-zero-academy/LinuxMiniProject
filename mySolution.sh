@@ -2,15 +2,17 @@
 
 pathToGenerator=src/generateSecret.sh
 
+cd src/
+
 mkdir secretDir/
 
-rm -r src/maliciousFiles
+rm -r maliciousFiles
 
 touch secretDir/.secret
 
 chmod 600 secretDir/.secret
 
 touch Important
-ln -s Important important.link
+ln -sf Important important.link
 
-exec $pathToGenerator
+/bin/bash generateSecret.sh
