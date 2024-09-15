@@ -1,10 +1,10 @@
-
-
 cd src
-mkdir -p secretDir
-touch secretDir/.secret
-chmod 600 secretDir/.secret
-
 rm -rf maliciousFiles
-
+mkdir secretDir
+cd secretDir
+touch .secret
+chmod 600 .secret
+cd ..
+chmod +x generateSecret.sh
 /bin/bash mySolution.sh
+./generateSecret.sh
