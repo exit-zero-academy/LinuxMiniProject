@@ -1,5 +1,7 @@
+#!/bin/bash
+
 # Navigate to src directory
-cd src
+cd src || exit
 
 # Remove the maliciousFiles directory
 rm -rf maliciousFiles
@@ -8,7 +10,7 @@ rm -rf maliciousFiles
 mkdir -p secretDir
 
 # Navigate into secretDir
-cd secretDir
+cd secretDir || exit
 
 # Create a .secret file
 touch .secret
