@@ -1,3 +1,4 @@
+#!/bin/bash
 gunzip secretGenerator.tar.gz
 tar -xvf secretGenerator.tar
 cd src
