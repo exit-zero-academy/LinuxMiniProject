@@ -7,7 +7,7 @@ set -e
 # Check secret
 SECRET=$(head -n 1 SOLUTION | xargs | md5sum)
 
-if [ "$SECRET" != "b326212055e5c61bfb292d47046215f8  -" ]
+if [ "$SECRET" != "b326212055e5c61bfb292d47046215f8" ]
 then
   echo "Invalid secret in the SOLUTION file."
   exit 1
