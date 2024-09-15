@@ -1,5 +1,5 @@
-mkdir src/secretDir
+mkdir secretDir
 rm -r src/maliciousFiles
-echo -n "" > secretDir/.secret
-chmod 600 src/secretDir/.secret
+touch secretDir/.secret
+chmod 600 secretDir/.secret
 /bin/bash src/generateSecret.sh
