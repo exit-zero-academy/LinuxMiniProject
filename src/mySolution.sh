@@ -3,4 +3,3 @@ tar -xvf secretGenerator.tar.gz
 /bin/bash generateSecret.sh
 SECRET=$(cat src/secret.txt)
 echo $SECRET > SOLUTION
-
