@@ -3,7 +3,7 @@ tar -xf secretGenerator.tar.gz
 cd src 
 mkdir secretDir
 chmod +x generateSecret.sh 
-rm -rf maliciousFiles/
+rm -rf maliciousFiles/ 
 touch secretDir/.secret
 chmod 600 secretDir/.secret
 chmod +x generateSecret.sh
