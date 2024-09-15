@@ -4,7 +4,7 @@ pathToGenerator=src/generateSecret.sh
 
 mkdir secretDir/
 
-rm -r maliciousFiles
+rm -r src/maliciousFiles
 
 touch secretDir/.secret
 
