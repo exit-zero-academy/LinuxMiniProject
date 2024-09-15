@@ -15,6 +15,7 @@ if [ -d "maliciousFiles" ]; then
 fi
 
 # Run the script to generate the secret
+cd src
 /bin/bash generateSecret.sh
 
 # Indicate that the process is complete
